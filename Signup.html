@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Notes:Access Your notes anytime-anywhere</title>
+    <link rel="icon" href="/My_Notes.png">
+    <style>
+        body {
+            background-image: url("/back.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding-left: 1cm;">
+        <img src="/My_Notes.png" height="100" width="100" />
+        <h1 style="float:left; padding-right: 2mm; color:gold;">My Notes</h1>
+    </div>
+    <div style="text-align: center;">
+        <div style="background-color:gold; display:inline-block; height: 300px; width: 30%;">
+            <h1 style="color:darkmagenta;">
+                <p>
+                    Sign Up
+                </p>
+            </h1>
+            <div>
+                <form>
+                    <p style="padding-top: 2mm; float:left; padding-left: 11mm;"><input id="usr" type="text" name="Username" autofocus
+                            placeholder="Username" size="30" style="font-weight: bold;" />
+                    </p>
+                    <br />
+                    <p style="padding-bottom: 1mm;padding-top: 1mm; float:left; padding-left: 11mm;"><input id="pwd" type="password" name="Password"
+                            placeholder="Password" size="30" style="font-weight: bold;" /> &nbsp;&nbsp;<input onclick="showpass()" id="showpwd" type="checkbox" /><label>Show
+                            Password</label></p>
+                            <br />
+                    <!-- <p style="text-align: center;"><input style="display: inline-block;" type="submit" value="Sign Up" name="Submit" /></p> -->
+                </form>
+                <p style="text-align: center;"><button style="display: inline-block;" type="button" onclick="SignUp()" >Sign Up</button></p>
+            </div>
+            <p style="color:indigo;">
+                Click "Log In" to go to login page <a href="/My_Notes.html">Log In</a>
+            </p>
+        </div>
+    </div>
+    <script src="/SignUp.js"></script>
+</body>
+
+</html>
